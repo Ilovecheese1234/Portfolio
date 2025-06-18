@@ -79,10 +79,8 @@ body>#topBar>#title{
     color:white;
    font-size:1.5vw;
     font-weight: bold;
-    border: 3px #777777 solid;
-    border-radius: 15px;
     position:relative;
-    width:30%;
+    width:60%;
     height:50%;
 }
 body>#topBar>#title>#pageSelectorContainer{
@@ -671,19 +669,22 @@ body>#topBar>#closeApp{
 #main{
     grid: 15% auto 100%/ 65.5% 29.5%;
 }
-      body>#topBar>#title{
-   font-size:2vw;
+body>#topBar>#title{
+   font-size:4vw;
 }
-
+body>#topBar>#languageSelector{
+    width:15%;
+}
+body>#topBar>#languageSelector>.lang{
+    font-size: 3vw;
+}
 #main #mainTitle{
     font-size: 7vw;
 }
 #main #mainSubtitle{
     font-size:4vw;
 }
-body>#topBar>#languageSelector>.lang{
-    font-size:2vw;
-}
+
 
   body #main #footer{
         position:relative;

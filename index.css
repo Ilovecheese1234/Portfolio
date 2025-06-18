@@ -81,10 +81,8 @@ body>#topBar>#title{
     color:white;
    font-size:1.5vw;
     font-weight: bold;
-    border: 3px #777777 solid;
-    border-radius: 15px;
     position:relative;
-    width:30%;
+    width:60%;
     height:50%;
 }
 body>#topBar>#title>#pageSelectorContainer{
@@ -1355,9 +1353,14 @@ body>#topBar>#closeApp{
     font-size:1.5vw;
 }
 body>#topBar>#title{
-   font-size:2vw;
+   font-size:4vw;
 }
-body>#topBar>#languageSelector>.lang
+body>#topBar>#languageSelector{
+    width:15%;
+}
+body>#topBar>#languageSelector>.lang{
+    font-size: 3vw;
+}
 #body>#intro>#introContainer>.textTitle{
     display: flex;
     align-items: center;
