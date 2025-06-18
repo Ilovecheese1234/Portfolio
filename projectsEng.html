@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="projectsEng.css">
+</head>
+<body id="body">
+    <img src="image/cheese.png" id="cheeseCursor">
+    <div id="detectArea"></div>
+
+
+    <div id="cursorDesc">You'll be directed to my Github page</div>
+    <div id="topBar">
+        <div id="icon">
+            <img src="image/cheese.png" id="iconImg" onclick="showCursor()">
+             <div id="text">Click for Cheese cursor</div>
+        </div>
+       
+        <div id="title">
+           <div id="pageSelectorContainer">
+                <div id="Home" class="button"> <a href="index.html"> Home</a></div>
+                <div id="Projects" class="button"> <a href="projectsEng.html"> Projects</a></div>
+                <div id="contact" class="button"> <a href="contactEng.html"> Contact</a> </div>
+           </div>
+        </div>
+
+        <div id="languageSelector">
+                <div id="tradChin" class="lang" ><a style="color:#888888;text-decoration: none;">繁</a></div>
+                <div id="simpChin" class="lang"><a style="color:#888888;text-decoration: none;">簡</a></div>
+                <div id="eng" class="lang"><a href="index.html" style="color:white;text-decoration: none;">ENG</a></div>
+        </div>
+    </div>
+
+
+    <div id="mainContainer">
+        <div id="title" color="white"> My Projects </div>
+        <div id="project1Container" class="projects">
+            <div id="image1Container" class="imageContainer">
+                <div id="image1" class="image"></div>
+            </div>
+            <div id="projectTitle1" class="projectTitle">Simple Candy Crush</div>
+            <div id="projectDesc1" class="projectDesc">Despite the game being simple, it still contains <label class="highlight">similar elements</label>  as the real game. For instance 
+                <ul>
+                    <li>Finding and removing matches</li>
+                    <li><label class="highlight">Gravity</label> application</li>
+                    <li><label class="highlight">Cascade</label> Matching</li>
+                </ul>  
+                Also, users could also <label class="highlight">choose how the board</label> is set up.
+            </div>
+            <div id="direct1" class="direct" >Visit</div>
+        </div>
+        <div id="project2Container" class="projects">
+            <div id="image2Container" class="imageContainer">
+                <div id="image2" class="image"></div>
+            </div>
+            <div id="projectTitle2" class="projectTitle">Cheese Portfolio</div>
+             <div id="projectDesc2" class="projectDesc">A simple projects built by <label class="highlight">vanilla javascript, css and html</label>. Frameworks and libraries will be implemented in the future (or other projects if I have the effort). <br> <br>Anyway, there are some <label class="highlight">Easter Eggs</label> hidden in my portfolio. Can you find any? :) <br><br> Credit: UI design inspired by <label class="highlight">thegr8binil</label></div>
+            <div id="direct2" class="direct">Visit</div>
+        </div>
+        <div id="project3Container" class="projects">
+            <div id="image3Container" class="imageContainer">
+                <div id="image3" class="image"></div>
+            </div>
+            <div id="projectTitle3" class="projectTitle">Inverse Matrix Asymmetric Encryption</div>
+             <div id="projectDesc3" class="projectDesc">A modified version of the <label class="highlight">Hill cipher</label>. Using padding and inverse matrices, this program enables user to <label class="highlight">encrypt</label> a line of english sentence into Chinese-like characters, vice versa.</div>
+            <div id="direct3" class="direct">Visit</div>
+        </div>
+
+    <div id="footer">
+        <div id="info">
+            <div id="hello"><p>One <label style="color:orange; font-weight: bold;">small step</label>  in coding,</p> <p style="position:relative; left:10%;"> a <label style="color:yellow; font-weight:bold;">giant leap</label> in creativity</p></div>
+            <div id="exploreContainer" class="buttonFooter" >
+                <div id="exploreTitle" style="color:lightgreen; font-weight: bold; font-size: 2vw;">Explore</div>
+                    <div id="explore1" class="exploreButton" onclick="redirect(0,2)">Home</div>
+                    <div id="explore2" class="exploreButton" onclick="redirect(1,2)">Projects</div>
+                    <div id="explore3" class="exploreButton" onclick="redirect(2,2)">contact</div>
+            </div>
+            <div id="socialContainer" class="buttonFooter">
+                <div id="socialTitle"  style="color:lightblue; font-weight: bold; font-size: 2vw;">Follow me</div>
+                    <div id="social2" class="socialButton" onclick="openApp(1)">Instagram</div>
+                    <div id="social3" class="socialButton" onclick="openApp(2)">GitHub</div>
+                    <div id="social4" class="socialButton" onclick="openApp(3)">LinkedIn</div>
+                    
+                
+            </div>
+            <div id="otherPagesContainer" class="buttonFooter">
+                    <div id="projectContainer" class="container" onclick="redirect(0,2)">
+                        <div id="projectTitle" class="title" >Home</div>
+                        <div id="projectSubTitle" class="subtitle">Return to home page</div>
+                         <div id="arrowImgContainer">
+                            <div id="arrowImg" class="arrow"></div>
+                         </div>
+                    </div>
+                    <div id="contactContainer" class="container" onclick="redirect(2,2)">
+                         <div id="contactTitle" class="title">Contact</div>
+                        <div id="contactSubTitle" class="subtitle">Any jobs?</div>
+                        <div id="arrowImgContainer">
+                            <div id="arrowImg" class="arrow"></div>
+                        </div>
+                        
+                    </div>
+            </div>
+            <div id="name">
+                Ilovecheese
+            </div>
+        </div>
+        <div id="copyrightContainer">
+            <div id="copyright">Ilovecheese ©2025</div>
+            <div id="base">Hong Kong, China</div>
+        </div>
+    </div>
+    </div>
+
+    
+
+    <script src="projectsEng.js"></script>
+</body>
+</html>
