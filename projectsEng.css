@@ -79,10 +79,8 @@ body>#topBar>#title{
     color:white;
    font-size:1.5vw;
     font-weight: bold;
-    border: 3px #777777 solid;
-    border-radius: 15px;
     position:relative;
-    width:30%;
+    width:60%;
     height:50%;
 }
 body>#topBar>#title>#pageSelectorContainer{
@@ -168,7 +166,6 @@ body>#topBar>#closeApp{
     padding:2%;
     cursor: pointer;
 }
-
 @keyframes scrollDown{
     to{
         top:0;
@@ -552,10 +549,13 @@ body>#mainContainer>.projects:hover > .projectDesc > ul > li >.highlight{
 
 @media (max-width:450px){
     body>#topBar>#title{
-   font-size:2vw;
+   font-size:4vw;
+}
+body>#topBar>#languageSelector{
+    width:15%;
 }
 body>#topBar>#languageSelector>.lang{
-    font-size:2vw;
+    font-size: 3vw;
 }
 body #mainContainer #title{
     font-size: 7vw;
