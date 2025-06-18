@@ -31,7 +31,7 @@ Hello World! This portfolio is built during summer semester of my first year in 
     - This is also my first time I use Github. If you can give me suggestions, feel free to contact me.
 
 
-## 🔗 Let's Contact
+## 🔗 Let's Connect!
 
 Please feel free to contact me via Github, LinkedIn or follow my social media. All of the contacts are included in my portfolio.
 
