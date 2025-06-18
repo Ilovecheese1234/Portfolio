@@ -35,5 +35,5 @@ Hello World! This portfolio is built during summer semester of my first year in 
 
 Please feel free to contact me via Github, LinkedIn or follow my social media. All of the contacts are included in my portfolio.
 
-Thank you for stopping by
+Thank you for stopping by🙏🙏
 
