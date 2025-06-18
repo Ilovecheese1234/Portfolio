@@ -125,3 +125,9 @@ function openApp(index){
         window.location.href = "https://www.linkedin.com/in/chan-david-042994344/";
     }
 }
+
+function toProject(index){
+    if(index==2){
+        window.location.href = "https://github.com/Ilovecheese1234/Portfolio";
+    }
+}
