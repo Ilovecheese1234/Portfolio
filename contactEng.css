@@ -721,6 +721,7 @@ body>#topBar>#languageSelector>.lang{
     justify-content: center;
    }
     body #main #footer #info div #exploreTitle{
+        position:relative;
         font-size:3vw;
         grid-area: 2 / 1 / span 1 / span 1;
     }
